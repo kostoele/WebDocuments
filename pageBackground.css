@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine;
+
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+button {
+    color: darkorchid;
+    background-color: hotpink;
+    border: none;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 1%;
+    left: 94%;
+}

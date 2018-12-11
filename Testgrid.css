@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #49274a;
+    padding: 0.5px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: 'Josefin Sans'
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 20%;
+    height: 370px; /* only for demonstration, should be removed */
+    background: #94618e;
+    padding: 20px;
+    font-family: 'Josefin Sans'
+}
+
+navArt {
+    float: left;
+    width: 20%;
+    height: 520px; /* only for demonstration, should be removed */
+    background: #94618e;
+    padding: 20px;
+    font-family: 'Josefin Sans'
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background-color: #f4decb;
+    height: 370px; /* only for demonstration, should be removed */
+    font-family: 'Josefin Sans'
+}
+
+articleArt {
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background-color: #f4decb;
+    height: 520px; /* only for demonstration, should be removed */
+    font-family: 'Josefin Sans'
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #49274a;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans'
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.button {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Josefin Sans'
+}
+
+.button1 {
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+
+.button2 {
+    padding: 10px 20px;
+}
+
+.button3 {
+    padding: 10px 20px;
+}
+
+.button4 {
+    padding: 10px 20px;
+}
+
+.button5 {
+    padding: 10px 20px;
+}
+
+.button6 {
+    padding: 10px 20px;
+}
+
+.button7 {
+    padding: 10px 20px;
+}
+
+.button8 {
+    padding: 10px 20px;
+}
+
+form{
+    top: 20px;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+

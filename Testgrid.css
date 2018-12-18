@@ -26,7 +26,7 @@ nav {
     font-family: 'Josefin Sans'
 }
 
-navArt {
+.navArt {
     float: left;
     width: 20%;
     height: 520px; /* only for demonstration, should be removed */
@@ -141,10 +141,11 @@ iframe{
     position: absolute;
     padding: 10px 10px;
 }
-.video1{
+.video1 {
     display: grid;
-    grid-template-columns: repeat(4,320px);
-    grid-template-rows: repeat(4,210px);
+    grid-template-columns: repeat(4, 320px);
+    grid-template-rows: repeat(4, 210px);
+}
 .pic{
     margin: 10px;
 }

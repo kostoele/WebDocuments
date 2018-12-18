@@ -83,6 +83,7 @@ footer {
     }
 }
 
+
 .button {
     text-align: center;
     text-decoration: none;
@@ -144,5 +145,12 @@ iframe{
     display: grid;
     grid-template-columns: repeat(4,320px);
     grid-template-rows: repeat(4,210px);
-
+.pic{
+    margin: 10px;
 }
+
+.player{
+    margin-right: 20px;
+}
+
+

@@ -4,6 +4,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    height:100%;
 }
 
 /* Style the header */
@@ -15,21 +16,28 @@ header {
     color: white;
     font-family: 'Josefin Sans'
 }
-
+main{
+    height: 50vmax;
+}
 /* Create two columns/boxes that floats next to each other */
+/*
 nav {
     float: left;
     width: 20%;
-    height: 370px; /* only for demonstration, should be removed */
+    height:100%;
     background: #94618e;
-    padding: 20px;
-    font-family: 'Josefin Sans'
+padding: 20px;
+font-family: 'Josefin Sans'
 }
+
+    /* only for demonstration, should be removed */
+
+
 
 .navArt {
     float: left;
     width: 20%;
-    height: 520px; /* only for demonstration, should be removed */
+    height: 100%; /* only for demonstration, should be removed */
     background: #94618e;
     padding: 20px;
     font-family: 'Josefin Sans'
@@ -40,31 +48,33 @@ nav ul {
     list-style-type: none;
     padding: 0;
 }
-
+/*
 article {
     float: left;
-    padding: 20px;
+    padding: 20%;
     width: 80%;
+    height: 100em;
     background-color: #f4decb;
-    height: 370px; /* only for demonstration, should be removed */
-    font-family: 'Josefin Sans'
+     font-family: 'Josefin Sans'
 }
+    /*  height: 370px; only for demonstration, should be removed */
 
-articleArt {
+.articleArt {
     float: left;
     padding: 20px;
     width: 80%;
+    height: 100%;
     background-color: #f4decb;
-    height: 520px; /* only for demonstration, should be removed */
+     /* only for demonstration, should be removed */
     font-family: 'Josefin Sans'
 }
 
-/* Clear floats after the columns */
-section:after {
+/*main:after {
     content: "";
     display: table;
     clear: both;
-}
+} Clear floats after the columns */
+
 
 /* Style the footer */
 footer {
@@ -77,15 +87,17 @@ footer {
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
-    nav, article {
+    nav, article, main {
         width: 100%;
-        height: auto;
+        height: 100%;
     }
 }
 
 
 .button {
     text-align: center;
+    border: none;
+    background-color: #f4decb;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
@@ -95,36 +107,36 @@ footer {
 }
 
 .button1 {
-    padding: 10px 20px;
+    padding: 10px 50px;
     margin-left: 20px;
 }
 
 .button2 {
-    padding: 10px 20px;
+    padding: 10px 50px;
 }
 
 .button3 {
-    padding: 10px 20px;
+    padding: 10px 50px;
 }
 
 .button4 {
-    padding: 10px 20px;
+    padding: 10px 50px;
 }
 
 .button5 {
-    padding: 10px 20px;
+    padding: 10px 50px;
 }
 
 .button6 {
-    padding: 10px 20px;
+    padding: 10px 50px;
 }
 
 .button7 {
-    padding: 10px 20px;
+    padding: 10px 50px;
 }
 
 .button8 {
-    padding: 10px 20px;
+    padding: 10px 50px;
 }
 
 form{
@@ -154,4 +166,6 @@ iframe{
     margin-right: 20px;
 }
 
-
+#hc{
+    color: #f4decb;
+}

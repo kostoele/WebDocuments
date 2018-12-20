@@ -96,6 +96,8 @@ footer {
 
 .button {
     text-align: center;
+    border: none;
+    background-color: #f4decb;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
@@ -105,36 +107,36 @@ footer {
 }
 
 .button1 {
-    padding: 10px 20px;
+    padding: 10px 50px;
     margin-left: 20px;
 }
 
 .button2 {
-    padding: 10px 20px;
+    padding: 10px 50px;
 }
 
 .button3 {
-    padding: 10px 20px;
+    padding: 10px 50px;
 }
 
 .button4 {
-    padding: 10px 20px;
+    padding: 10px 50px;
 }
 
 .button5 {
-    padding: 10px 20px;
+    padding: 10px 50px;
 }
 
 .button6 {
-    padding: 10px 20px;
+    padding: 10px 50px;
 }
 
 .button7 {
-    padding: 10px 20px;
+    padding: 10px 50px;
 }
 
 .button8 {
-    padding: 10px 20px;
+    padding: 10px 50px;
 }
 
 form{
@@ -165,5 +167,5 @@ iframe{
 }
 
 #hc{
-    color: white;
+    color: #f4decb;
 }

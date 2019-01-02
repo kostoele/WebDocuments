@@ -34,16 +34,38 @@
     </nav>
 
     <article class="articleArt">
-        <h2>Most famous</h2>
-        <li><a href="#">Pictures/Animations</a></li>
-        <img src="http://www.cheeezbude.de/Bilder/Intro-Gruender.jpg" alt="Selfhtml" width="80" height="80" />
-        <img src="http://www.cheeezbude.de/Bilder/Intro-Gruender.jpg" alt="Selfhtml" width="80" height="80" />
-        <li><a href="#">Handcrafting</a></li>
-        <img src="http://www.cheeezbude.de/Bilder/Intro-Gruender.jpg" alt="Selfhtml" width="80" height="80" />
-        <li><a href="#">Music</a></li>
-        <img src="http://www.cheeezbude.de/Bilder/Intro-Gruender.jpg" alt="Selfhtml" width="80" height="80" />
-        <li><a href="#">Rating</a></li>
-        <img src="http://www.cheeezbude.de/Bilder/Intro-Gruender.jpg" alt="Selfhtml" width="80" height="80" />
+        <h2>Rating</h2><br>
+        <div id="rate">
+            <form>
+                <h2>Chooce  your Categorie:</h2><br><br>
+                <div id="rate">
+                    <select name="reise" size="1">
+                        <option>pictures/animations</option>
+                        <option>handcrafting</option>
+                        <option>musik</option>
+                    </select>
+                    <input type="submit" value="rate"><br><br>
+                </div>
+
+                <div>
+                    <figure style="display: table-cell; padding: 0 4px; text-align: center;">
+                    <input type="submit" value="<">
+                    </figure>
+                    <figure style="display: table-cell; padding: 0 4px; text-align: center;">
+                        <img src="http://www.cheeezbude.de/Bilder/Intro-Gruender.jpg" alt="Selfhtml" width="300" height="300" />
+                        <figcaption>PicA</figcaption>
+                    </figure>
+                    <figure style="display: table-cell; padding: 0 4px; text-align: center;">
+                        <input type="submit" value=">">
+                    </figure>
+                    <br>
+                </div>
+                <div>
+                    <input type="submit" value="save"><input type="submit" value="not save">
+                </div>
+            </form>
+        </div>
+
     </article>
 </main>
 

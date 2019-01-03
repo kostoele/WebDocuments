@@ -14,7 +14,7 @@ header {
     text-align: center;
     font-size: 35px;
     color: white;
-    font-family: 'Josefin Sans'
+    font-family: 'Josefin Sans', serif
 }
 main{
     height: 50vmax;
@@ -40,7 +40,7 @@ font-family: 'Josefin Sans'
     height: 100%; /* only for demonstration, should be removed */
     background: #94618e;
     padding: 20px;
-    font-family: 'Josefin Sans'
+    font-family: 'Josefin Sans', serif
 }
 
 /* Style the list inside the menu */
@@ -66,7 +66,7 @@ article {
     height: 100%;
     background-color: #f4decb;
      /* only for demonstration, should be removed */
-    font-family: 'Josefin Sans'
+    font-family: 'Josefin Sans', serif
 }
 
 /*main:after {
@@ -82,7 +82,7 @@ footer {
     padding: 20px;
     text-align: center;
     color: white;
-    font-family: 'Josefin Sans'
+    font-family: 'Josefin Sans', serif
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
@@ -103,7 +103,7 @@ footer {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    font-family: 'Josefin Sans'
+    font-family: 'Josefin Sans', serif
 }
 
 .button1 {
@@ -169,6 +169,9 @@ iframe{
 #hc{
     color: #f4decb;
 }
+
+.profil {
+    font-size: x-large;
 .forumLines{
     display: grid;
 }

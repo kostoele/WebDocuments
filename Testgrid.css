@@ -169,3 +169,17 @@ iframe{
 #hc{
     color: #f4decb;
 }
+.forumLines{
+    display: grid;
+}
+.forumLines > div {
+    border: 2px solid #49274a;
+    border-radius: 5px;
+    background-color: #F2E0F7;
+    padding: 1em;
+    color: #94618e;
+}
+.pages{
+    padding-top: 30px;
+    text-align: center;
+}

@@ -139,6 +139,14 @@ footer {
     padding: 10px 50px;
 }
 
+.side {
+    background-color: #f4decb;
+    width: 90%;
+
+}
+
+
+
 form{
     top: 20px;
     left: 50%;
@@ -172,6 +180,7 @@ iframe{
 
 .profil {
     font-size: x-large;
+}
 .forumLines{
     display: grid;
 }

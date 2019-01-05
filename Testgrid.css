@@ -55,7 +55,10 @@ nav ul {
      /* only for demonstration, should be removed */
     font-family: 'Josefin Sans', serif
 }
-
+.articleArt{
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr;
+}
 /*main:after {
     content: "";
     display: table;

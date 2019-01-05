@@ -16,22 +16,18 @@ header {
     color: white;
     font-family: 'Josefin Sans', serif
 }
+.headerGrid{
+    display: grid;
+    grid-template-columns: 1fr 3fr 0.5fr;
+}
+.HomeButtons{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
 main{
     height: 50vmax;
 }
-/* Create two columns/boxes that floats next to each other */
-/*
-nav {
-    float: left;
-    width: 20%;
-    height:100%;
-    background: #94618e;
-padding: 20px;
-font-family: 'Josefin Sans'
-}
-
-    /* only for demonstration, should be removed */
-
 
 
 .navArt {
@@ -48,16 +44,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
 }
-/*
-article {
-    float: left;
-    padding: 20%;
-    width: 80%;
-    height: 100em;
-    background-color: #f4decb;
-     font-family: 'Josefin Sans'
-}
-    /*  height: 370px; only for demonstration, should be removed */
+
 
 .articleArt {
     float: left;
@@ -128,11 +115,14 @@ footer {
 }
 
 .button6 {
-    padding: 10px 50px;
+
+    color: #f4decb;
+    background-color: #49274a;
 }
 
 .button7 {
-    padding: 10px 50px;
+    color: #f4decb;
+    background-color: #49274a;
 }
 
 .button8 {
@@ -194,4 +184,12 @@ iframe{
 .pages{
     padding-top: 30px;
     text-align: center;
+}
+a{
+    color: #f4decb;
+}
+.textLogo{
+    position: sticky;
+    top:100%;
+
 }

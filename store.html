@@ -4,14 +4,14 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" content=""/>
     <title>Store</title>
     <link rel="stylesheet" type="text/css" href="Testgrid.css">
 </head>
 <body>
 <header>
     <div class="headerGrid">
-        <div><a href="index.html"><svg><image xlink:href="./pics/DevLogo.png" x="0" y="40" height="80px" width="80px" alt="Logo" /> <text x="85" y="120" fill="#f8eee7">DevelIn Art</text></svg></a>
+        <div><a href="index.html"><svg><image xlink:href="./pics/DevLogo.png" x="0" y="40" height="80px" width="80px" alt="Logo"></image> <text x="85" y="120" fill="#f8eee7">DevelIn Art</text></svg></a>
         </div>
         <div class ="HomeButtons">
             <div></div>
@@ -29,10 +29,53 @@
 </header>
 <main>
     <nav class="navArt">
-
+        <div class="textLogo"><img src="./pics/devilInArt.png" alt="Logo" style="height: 50px; width: 150px;"/></div>
     </nav>
-    <article class="articleArt">
-        <h2>Store</h2></article>
+    <div class="articleArt">
+        <div>
+        <h2>Store</h2>
+
+        <h3>Top Sellers</h3>
+
+            <XML id="meineNchr" src="nachricht01_17.xml"/>
+
+            <TABLE class="table" border="6" width="100%"
+                   datasrc="#meineNchr" summary="Nachrichten">
+                <THEAD style="background-color: #94618e">
+                <TH style="background-color: #F2E0F7">Artist</TH>
+                <TH>T-Shirt</TH>
+                <TH>Mug</TH>
+                <TH>Wallpaper</TH>
+                </THEAD>
+                <TR valign="top" align="center">
+                    <TD><SPAN datafld="artist"></SPAN><a style="color: #49274a" href="#"><p>ZeenChin</p><p>PeteMohrbavher</p><p>RHADIS</p><p>ArthurBlue</p><p>arcipello</p></a></TD>
+                    <TD><SPAN datafld="price"></SPAN><p>25$</p><p>25$</p><p>25$</p><p>25$</p><p>25$</p></TD>
+                    <TD><SPAN datafld="price"></SPAN><p>25$</p><p>25$</p><p>25$</p><p>25$</p><p>25$</p></TD>
+                    <TD><SPAN datafld="price"></SPAN><p>25$</p><p>25$</p><p>25$</p><p>25$</p><p>25$</p></TD>
+
+                </TR>
+            </TABLE></div>
+
+        <div>
+            <h3>Others</h3>
+            <XML id="meineNchr" src="nachricht01_17.xml"/>
+
+            <TABLE class="table" border="6" width="100%"
+                   datasrc="#meineNchr" summary="Nachrichten">
+                <THEAD style="background-color: #94618e">
+                <TH style="background-color: #F2E0F7">Artist</TH>
+                <TH>T-Shirt</TH>
+                <TH>Mug</TH>
+                <TH>Wallpaper</TH>
+                </THEAD>
+                <TR valign="top" align="center">
+                    <TD><SPAN datafld="artist"></SPAN><a style="color: #49274a" href="#"><p>EimyTop</p><p>GordanLenannn</p><p>RIDIC</p><p>TheHobbit</p><p>RobinHood</p></a> </TD>
+                    <TD><SPAN datafld="price"></SPAN><p>18$</p><p>20$</p><p>19$</p><p>19$</p><p>17$</p></TD>
+                    <TD><SPAN datafld="price"></SPAN><p>18$</p><p>20$</p><p>19$</p><p>19$</p><p>17$</p></TD>
+                    <TD><SPAN datafld="price"></SPAN><p>18$</p><p>20$</p><p>19$</p><p>17$</p><p>19$</p></TD>
+
+                </TR>
+            </TABLE></div></div>
 </main>
 
 <footer>

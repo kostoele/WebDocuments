@@ -2,87 +2,118 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+}
+*, body, button, html, input, select, textarea {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    height:100%;
+    overflow: hidden;
+    display: block;
+}
+html{
+    display: block;
+}
+html::-webkit-scrollbar {
+    width: 30px;
+    height: 30px;
 }
 
-/* Style the header */
+html {
+    --maxWidth: 1284px;
+    --minWidth: 1000px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+
+.articleArt {
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    height: 80em;
+    background-color: #f4decb;
+    /* only for demonstration, should be removed */
+    font-family: 'Josefin Sans', serif;
+}
+.articleArt2{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #f4decb;
+    /* only for demonstration, should be removed */
+    font-family: 'Josefin Sans', serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
 header {
+    display: grid;
+    width: 100%;
     background-color: #49274a;
-    padding: 0.5px;
+    padding: 20px;
     text-align: center;
     font-size: 35px;
-    color: white;
-    font-family: 'Josefin Sans', serif
+    font-family: 'Josefin Sans', serif;
 }
-.headerGrid{
+
+main {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100%;
+    width: 100%;
+    background-color: #f4decb;
+}
+
+footer {
+    display: grid;
+    height: 30px;
+    width: 100%;
+    background-color: #49274a;
+    text-align: center;
+
+    font-family: 'Josefin Sans', serif;
+}
+
+nav {
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: #94618e;
+
+    font-family: 'Josefin Sans', serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.headerGrid {
     display: grid;
     grid-template-columns: 1fr 3fr 0.5fr;
 }
-.HomeButtons{
+
+.HomeButtons {
     display: grid;
     grid-template-rows: 2fr 1fr;
+
 }
-
-main{
-    height: 50vmax;
-}
-
-
-.navArt {
-    float: left;
-    width: 20%;
-    height: 100%; /* only for demonstration, should be removed */
-    background: #94618e;
+.container {
+    display: flex;
+    flex-flow: row wrap;
     padding: 20px;
-    font-family: 'Josefin Sans', serif
+    font-family: 'Josefin Sans', serif;
 }
-
-/* Style the list inside the menu */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-
-.articleArt {
-    float: left;
-    padding: 20px;
-    width: 80%;
-    height: 100%;
-    background-color: #f4decb;
-     /* only for demonstration, should be removed */
-    font-family: 'Josefin Sans', serif
-}
-.articleArt{
-    display: grid;
-    grid-template-rows: 2fr 2fr 2fr;
-}
-/*main:after {
-    content: "";
-    display: table;
-    clear: both;
-} Clear floats after the columns */
-
-
-/* Style the footer */
-footer {
-    background-color: #49274a;
-    padding: 20px;
-    text-align: center;
-    color: white;
-    font-family: 'Josefin Sans', serif
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-    nav, article, main {
-        width: 100%;
-        height: 100%;
-    }
-}
-
 
 .button {
     text-align: center;
@@ -91,9 +122,20 @@ footer {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
-    font-family: 'Josefin Sans', serif
+    font-family: 'Josefin Sans', serif;
+    min-width: 80px;
+    min-height: 20px;
+    color: black;
+}
+.button:hover{
+    background-color: #94618e;
+}
+.side {
+    background-color: #f4decb;
+    width: 90%;
+    color: black;
+    border: 2px solid #49274a;
 }
 
 .button1 {
@@ -128,19 +170,12 @@ footer {
     background-color: #49274a;
 }
 
-.button8 {
-    padding: 10px 50px;
-}
-
-.side {
-    background-color: #f4decb;
-    width: 90%;
-
+a {
+    color: #f4decb;
 }
 
 
-
-form{
+form {
     top: 20px;
     left: 50%;
     display: flex;
@@ -148,16 +183,20 @@ form{
     align-items: center;
     justify-content: center;
 }
+.textLogo{
+    display: block;
+    position: sticky;
+    top:100%;
 
-iframe{
-    box-sizing: padding-box;
-    position: absolute;
-    padding: 10px 10px;
 }
-.video1 {
-    display: grid;
-    grid-template-columns: repeat(4, 320px);
-    grid-template-rows: repeat(4, 210px);
+#steps{
+    position: relative;
+    top:20%;
+    text-align: center;
+}
+
+.input{
+    font-size: 16px;
 }
 .pic{
     margin: 10px;
@@ -167,9 +206,6 @@ iframe{
     margin-right: 20px;
 }
 
-#hc{
-    color: #f4decb;
-}
 
 .profil {
     font-size: x-large;
@@ -187,12 +223,8 @@ iframe{
 .pages{
     padding-top: 30px;
     text-align: center;
+    bottom: 10px;
 }
-a{
-    color: #f4decb;
-}
-.textLogo{
-    position: sticky;
-    top:100%;
-
+.buttons > a{
+    color: #49274a;
 }

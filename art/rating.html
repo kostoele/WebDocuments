@@ -11,9 +11,10 @@
 </head>
 
 <body>
+<div>
 <header>
     <div class="headerGrid">
-        <div><a href="../index.html"><svg><image xlink:href="../pics/DevLogo.png" x="0" y="40" height="80px" width="80px" alt="Logo" /> <text x="85" y="120" fill="#f8eee7">DevelIn Art</text></svg></a>
+        <div><a href="../index.html"><svg><image xlink:href="../pics/DevLogo.png" x="0" y="40" height="80px" width="80px" alt="Logo"></image> <text x="85" y="120" fill="#f8eee7">DevelIn Art</text></svg></a>
         </div>
         <div class ="HomeButtons">
             <div></div>
@@ -31,27 +32,30 @@
 </header>
 
 <main>
+    <div>
     <nav class="navArt">
         <h2>Art</h2>
         <ul>
             <li><a  href="pictures&animations.html"><button class="button side">Pictures/Animations</button></a></li>
             <li><a  href="handcrafting.html"><button class="button side">Handcrafting</button></a></li>
-            <li><a  href="musik.html"><button class="button side">Music</button></a></li>
+            <li><a  href="music.html"><button class="button side">Music</button></a></li>
             <li><a  href="rating.html"><button class="button side">Rating</button></a></li>
         </ul>
+        <div class="textLogo"><img src="../pics/devilInArt.png" alt="Logo" style="height: 50px; width: 150px;"/></div>
     </nav>
+    </div>
 
-    <article class="articleArt">
+    <div class="articleArt">
         <h2>Rating</h2>
         <div id="rate">
             <form action="">
-                <h2>Chooce  your Categorie:</h2><br><br>
+                <h2>Choose  your Category:</h2><br><br>
                 <div>
                     <label>
                         <select name="reise" size="1">
                             <option>pictures/animations</option>
                             <option>handcrafting</option>
-                            <option>musik</option>
+                            <option>music</option>
                         </select>
                     </label>
                     <input type="submit" value="rate"><br><br>
@@ -59,24 +63,23 @@
 
                 <div>
                     <figure style="display: table-cell; padding: 0 4px; text-align: center;">
-                    <input type="submit" value="<">
+                    <input class="input" type="submit" value="<">
                     </figure>
                     <figure style="display: table-cell; padding: 0 4px; text-align: center;">
                         <img src="../pics/picb.jpg" alt="Selfhtml" style="height: 500px; width: 750px;" />
-                        <figcaption>PicA</figcaption>
+                        <figcaption>PicB, UserA</figcaption>
                     </figure>
                     <figure style="display: table-cell; padding: 0 4px; text-align: center;">
-                        <input type="submit" value=">">
+                        <input class="input" type="submit" value=">">
                     </figure>
                     <br>
                 </div>
                 <div>
-                    <input type="submit" title="Save for Work" value="SFW"><input type="submit" title="Not save for Work" value="NSFW">
+                    <input class="input" type="submit" title="Save for Work" value="SFW"><input class="input" type="submit" title="Not save for Work" value="NSFW">
                 </div>
             </form>
         </div>
-
-    </article>
+    </div>
 </main>
 
 <footer>
@@ -86,5 +89,5 @@
     </div>
 </footer>
 
-</body>
+</div></body>
 </html>
